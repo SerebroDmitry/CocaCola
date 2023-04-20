@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('./fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+  font-family: 'Pattaya';
+  src: url('./fonts/Pattaya-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MainDiv {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #EB9668;
+}
+
+header {
+  font-family: 'Bebas';
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerDiv {
+  display: flex;
+  width: 1036px;
+  height: 82px;
+}
+
+.logoDiv {
+  width: 40%;
+}
+
+.navigationDiv {
+  align-items: start;
+  justify-content: space-between; 
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigationLinks {
+  text-decoration: none;
+  color: #C20707;
+}
+.navigationLinks:active {
+  text-decoration: none;
+  color: #C20707;
+}
+.navigationLinks:visited {
+  text-decoration: none;
+  color: #C20707;
+  border: 1px solid black;
+  background-color: antiquewhite;
+}
+
+.headerUserAndRycecleDiv {
+  width: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MainContent {
+  font-family: 'Bebas';
+  color: #BA3229;
+  display: grid;
+  width: 1036px;
+  height: 583px;
+  grid-template-columns: 7fr 5fr;
+  grid-template-areas: "a b";
+}
+
+.divWithTASTE {
+  grid-area: "a";
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: start;
+}
+.Taste {
+  font-size: 194px;
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: -40px;
+  justify-content: end;
+}
+.Enjoy {
+  width: 55%;
+}
+.leftDivWithThe {
+  grid-area: "b";
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+}
+.Feeling {
+  font-size: 194px;
+}
+.The {
+  font-family: 'Pattaya';
+  font-size: 44px;
+  margin-bottom: -30px;
+}
+
+.colaCan {
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -250px;
+  width: 90%;
+}
+.cube21 {
+  position: absolute;
+  margin-left: -430px;
+  margin-top: -440px;
+  width: 60%;
+  rotate: 90deg;
+}
+.cube22 {
+  position: absolute;
+  margin-left: -440px;
+  margin-top: -5px;
+  width: 70%;
+  rotate: 270deg;
+}
+.cube3 {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: -160px;
+  width: 70%;
+  rotate: 90deg;
+}
